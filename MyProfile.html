@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Profile Page</title>
+    <style>
+        body {
+            padding: 75px 150px;
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            text-align: end;
+        }
+
+        .container {
+            width: 100%;
+        }
+
+        .profile-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            margin-bottom: 20px;
+        }
+
+        .profile-header img {
+            border: 1px solid black;
+            height: 150px;
+            width: 120px;
+            margin-left: 20px;
+        }
+
+        .profile-header h1 {
+            margin: 0;
+        }
+
+        hr {
+            color: black;
+            width: 920px;
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+        table {
+            border: 1px solid black;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            padding: 5px 0;
+        }
+
+        .contact {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        .contact img {
+            vertical-align: middle;
+        }
+
+        .contact h3 {
+            text-align: center;
+        }
+        .skill{
+            margin-right: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="profile-header">
+            <div class="name">
+                <h1>CHARU C A</h1>
+            </div>
+            <div class="photo">
+                <img src="./photo.jfif" alt="photo" />
+            </div>
+        </div>
+        <hr />
+        <div class="section">
+            <h2>About</h2>
+            <p>I am a software engineer currently working at Dover, specializing in Oracle development, with a primary
+                focus on Oracle ERPs and EBS.</p>
+        </div>
+        <div class="section">
+            <h2>Education</h2>
+            <table>
+                <tr>
+                    <th>Degree</th>
+                    <th>Institution</th>
+                    <th>Year</th>
+                    <th>Percentage</th>
+                </tr>
+                <tr>
+                    <td>B.Tech</td>
+                    <td>Jain University</td>
+                    <td>2024</td>
+                    <td>92%</td>
+                </tr>
+                <tr>
+                    <td>12th Grade</td>
+                    <td>RV PU College</td>
+                    <td>2020</td>
+                    <td>87.83%</td>
+                </tr>
+                <tr>
+                    <td>10th Grade</td>
+                    <td>The East-West School</td>
+                    <td>2018</td>
+                    <td>96.96%</td>
+                </tr>
+            </table>
+        </div>
+        <div class="section">
+            <h2>Skills</h2>
+            <img class="skill" src="./oracle.png" alt="oracle" height="35" width="50" marigin-left="20px"/>
+            <img class="skill" src="./sql.png" alt="sql" height="40" width="30"/>
+            <img class="skill" src="./swift.jfif" alt="swift" height="40" width="40"/>
+            <img class="skill" src="./java.png" alt="java" height="40" width="40"/>
+        </div>
+        <div class="section">
+            <h2>Experience</h2>
+            <ul>
+                <li>Interned at Dover India as a software engineer from February, 2024 - June, 2024.</li>
+            </ui>
+        </div>
+        <hr />
+        <div class="section">
+            <h3 align="center">Contact me</h3>
+            <div class="contact">
+                <img src="./telephone.png" alt="phone" height="18" width="18" /> +91 6364546008
+                <img src="./gmail.png" alt="mail" height="18" width="18" /><a href="mailto:cacharu16@gmail.com"
+                    style="color: black;">cacharu16@gmail.com</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
